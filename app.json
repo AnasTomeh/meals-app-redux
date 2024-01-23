@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "MealsApp",
+    "name": "My Recipe App",
     "slug": "MealsApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,16 +16,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anastomeh.myrecipebook"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anastomeh.myrecipebook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "206b2275-2752-4e7d-92c2-eae74a8aad9d"
+      }
     }
   }
 }
